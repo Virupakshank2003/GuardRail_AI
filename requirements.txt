@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+httpx
+pydantic
+pydantic-settings
+instructor
+openai
+anthropic
+presidio-analyzer
+presidio-anonymizer
+spacy
+loguru
+python-dotenv
+redis
+aioredis
