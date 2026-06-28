@@ -1,29 +1,15 @@
-# FastAPI and Web Server
 fastapi
 uvicorn[standard]
-
-# Async HTTP client (Crucial for proxying requests)
 httpx
-
-# Data Validation (Industry standard for LLM output structures)
 pydantic
 pydantic-settings
-
-# LLM Orchestration & Schema Enforcement
 instructor
 openai
 anthropic
-
-# PII Detection (For your security/privacy layer)
 presidio-analyzer
 presidio-anonymizer
 spacy
-en_core_web_sm
-
-# Caching and Performance
-redis
-aioredis
-
-# Observability / Logging
 loguru
 python-dotenv
+redis
+aioredis
